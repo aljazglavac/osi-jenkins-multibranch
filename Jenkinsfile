@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'echo "Master"'
+                sh 'echo "feature/f1"'
             }
         }
     }
